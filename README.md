@@ -63,3 +63,4 @@ on Ultimas_Balanzas_12.rfc=Ultimas_Balanzas_13.rfc;
 De manera paralela al proceso anterior se puede ejecutar el script ‘Ids Catalogos.sql’ el cual de manera análoga al proceso contenido en ‘Ids Balanzas.sql’ revisa en todas las vistas de ambas bases de datos, extrae todos los catálogos aceptados y retiene el último hasta la fecha de interés. 
 
 
+
