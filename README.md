@@ -62,5 +62,8 @@ on Ultimas_Balanzas_12.rfc=Ultimas_Balanzas_13.rfc;
 ```
 De manera paralela al proceso anterior se puede ejecutar el script ‘Ids Catalogos.sql’ el cual de manera análoga al proceso contenido en ‘Ids Balanzas.sql’ revisa en todas las vistas de ambas bases de datos, extrae todos los catálogos aceptados y retiene el último hasta la fecha de interés. 
 
+En este punto hay que destacar que ‘la balanza’ se integra por el join de las tablas ‘Balanza’ con ‘Ctas’ y a su vez ‘el catalogo’ se integra por el join de las tablas ‘Catalogo’ con ‘CtasCatalogo’. Después del join entre la tabla ‘Balanza’ y ‘Ctas’, ‘la balanza’ solo tiene números de cuenta (el campo ‘NumCta’) pero con saldos iniciales, finales, haberes y deberes; por su parte, después del join entre la tabla ‘Catalogo’ y ‘CtasCatalogo’, ‘el catalogo’ posee números de cuenta ‘NumCta’ y códigos de agrupación ‘CodAgrup’  así que como dice el tercer párrafo de la sección I de la regla 2.8.1.6 de la Resolución Miscelánea Fiscal para 2016 basta con hacer un match entre los números de cuenta de  ‘la balanza’ y ‘el catalogo’ (considerando que los números de cuenta varían de contribuyente en contribuyente). 
+
+
 
 
