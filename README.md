@@ -205,7 +205,7 @@ Las tablas 'final_agrupado_\*' contienen agregados de las tablas ‘final_\*’,
 
 <sup> * el asterisco hace referencia a una letra del abecedario </sup>
 
-  _Código de ‘Ids Catalogos.sql’_
+  _Código de ‘split.sql’_
 ```{sql, eval=FALSE}
 --Se divide la tabla de idscatalogo en varias tablas, en funcion de la letra con la que inicia el RFC del registro*/  
 /*5, 042*/
