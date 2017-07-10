@@ -1,1 +1,1 @@
-# SAT
+Como nos comentó la gente de negocio y Jorge en ambas bases de datos existen vistas en las cuales se dice que ‘documentos’ (balanzas, catálogos, pólizas, …) han sido aceptados y la fecha en que lo hicieron.
