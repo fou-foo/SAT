@@ -4,8 +4,9 @@ Se nos solicitó información de la declaración anual 2016 que se puede extraer
 
 Entonces la primera parte del proceso consiste en determinar los identificadores de las balanzas, y posteriormente los identificadores de los catálogos. 
 
-Se determinan los id de los documentos de las vistas que corresponden a balanzas de los meses 12 o 13, según corresponda, junto a su RFC y se escribe en una tabla local llamada ‘ids’.
+Se determinan los id de los documentos de las vistas que corresponden a balanzas de los meses 12 o 13, según corresponda, junto a su RFC (para poderlo procesar después en ‘paralelo’) y se escribe en una tabla local llamada ‘ids’. Este proceso se encuentra en el script ‘Ids Balanzas.sql’
 
+Código de ‘Ids Balanzas.sql’
 ```sql
 /* Los documentos del mes 12 del ejercicio 2016 aprobadas (y los no aprobados) se encuentran en la vista 
 [dbo].[VistaRecepcionCarga1612] y los del mes 13 en la vista [dbo].[VistaRecepcionCarga1613] pero como la información se encuentra
@@ -59,5 +60,6 @@ left join	/* Se marcan los registros que tienen balanzas en ambos mese 12 y 13 p
 		on Balanzas_1.RFC=Filtro_Balanzas_1.RFC  and Balanzas_1.FechaRecepcion=Filtro_Balanzas_1.MaxiFecha ) as Ultimas_Balanzas_13
 on Ultimas_Balanzas_12.rfc=Ultimas_Balanzas_13.rfc; 
 ```
+De manera paralela al proceso anterior se puede ejecutar el script ‘Ids Catalogos.sql’ el cual de manera análoga al proceso contenido en ‘Ids Balanzas.sql’ revisa en todas las vistas de ambas bases de datos, extrae todos los catálogos aceptados y retiene el último hasta la fecha de interés. 
 
 
