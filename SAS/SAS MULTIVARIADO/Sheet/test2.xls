@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<style> td {mso-number-format:\@} </style>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.table
+{
+  border: 10px solid #000000;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div>
+<div align="center">
+<table class="table" border="10" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" style=" font-weight: bold;mso-rotate:90; height:50pt" scope="col">&nbsp;</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedixadu</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedixadu_imp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedixadu_exp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totvalorpedxadu</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totvalorpedxadu_imp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totvalorpedxadu_exp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedamparo</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> numpedamparo_exp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedcartaencom</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> numpedcartaencom_imp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> numpedcartaencom_exp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totrfcimportadoresxadu</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> importadorenpadron</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> emprecertifi</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> emprenocertifi</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedconsemaforo</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> totpedconinci</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> numpedconinci_imp</th>
+<th class="c header" style="mso-rotate:90; height:50pt" scope="col"> numpedconinci_exp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedixadu</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedixadu_imp</td>
+<td class="r data" style=" background-color: #FF0000;"> 1.00</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedixadu_exp</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.96</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totvalorpedxadu</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totvalorpedxadu_imp</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.91</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.90</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.96</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totvalorpedxadu_exp</td>
+<td class="r data" style=" background-color: #008000;"> 0.79</td>
+<td class="r data" style=" background-color: #008000;"> 0.78</td>
+<td class="r data" style=" background-color: #008000;"> 0.78</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.96</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.85</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedamparo</td>
+<td class="r data"> 0.61</td>
+<td class="r data"> 0.62</td>
+<td class="r data"> 0.56</td>
+<td class="r data" style=" background-color: #008000;"> 0.72</td>
+<td class="r data" style=" background-color: #008000;"> 0.72</td>
+<td class="r data"> 0.67</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">numpedamparo_exp</td>
+<td class="r data"> 0.09</td>
+<td class="r data"> 0.10</td>
+<td class="r data"> 0.08</td>
+<td class="r data"> 0.11</td>
+<td class="r data"> 0.10</td>
+<td class="r data"> 0.11</td>
+<td class="r data"> 0.22</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedcartaencom</td>
+<td class="r data" style=" background-color: #FF0000;"> 1.00</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.99</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #008000;"> 0.80</td>
+<td class="r data"> 0.63</td>
+<td class="r data"> 0.10</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">numpedcartaencom_imp</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.99</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.99</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.97</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #008000;"> 0.79</td>
+<td class="r data"> 0.63</td>
+<td class="r data"> 0.10</td>
+<td class="r data" style=" background-color: #FF0000;"> 1.00</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">numpedcartaencom_exp</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.97</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.96</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.99</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.90</td>
+<td class="r data" style=" background-color: #008000;"> 0.80</td>
+<td class="r data"> 0.60</td>
+<td class="r data"> 0.10</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.97</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totrfcimportadoresxadu</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.94</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.94</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #008000;"> 0.79</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.85</td>
+<td class="r data"> 0.68</td>
+<td class="r data"> 0.45</td>
+<td class="r data"> 0.08</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">importadorenpadron</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.91</td>
+<td class="r data" style=" background-color: #008000;"> 0.78</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.84</td>
+<td class="r data"> 0.66</td>
+<td class="r data"> 0.43</td>
+<td class="r data"> 0.07</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data" style=" background-color: #FF0000;"> 1.00</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">emprecertifi</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.85</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.84</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.85</td>
+<td class="r data" style=" background-color: #008000;"> 0.76</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.82</td>
+<td class="r data"> 0.64</td>
+<td class="r data"> 0.41</td>
+<td class="r data"> 0.04</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.84</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.84</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.82</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">emprenocertifi</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.91</td>
+<td class="r data" style=" background-color: #008000;"> 0.78</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.83</td>
+<td class="r data"> 0.66</td>
+<td class="r data"> 0.42</td>
+<td class="r data"> 0.06</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.93</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FF0000;"> 1.00</td>
+<td class="r data" style=" background-color: #FF0000;"> 1.00</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.91</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedconsemaforo</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.96</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.90</td>
+<td class="r data" style=" background-color: #008000;"> 0.79</td>
+<td class="r data"> 0.62</td>
+<td class="r data"> 0.12</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.98</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.96</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.92</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.91</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.83</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.91</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">totpedconinci</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.85</td>
+<td class="r data" style=" background-color: #008000;"> 0.75</td>
+<td class="r data" style=" background-color: #008000;"> 0.79</td>
+<td class="r data"> 0.65</td>
+<td class="r data"> 0.48</td>
+<td class="r data"> 0.17</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.86</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.83</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.81</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.86</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">numpedconinci_imp</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.85</td>
+<td class="r data" style=" background-color: #008000;"> 0.75</td>
+<td class="r data" style=" background-color: #008000;"> 0.80</td>
+<td class="r data"> 0.64</td>
+<td class="r data"> 0.48</td>
+<td class="r data"> 0.16</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.87</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.83</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.89</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.81</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.88</td>
+<td class="r data" style=" background-color: #FFFF00;"> 0.86</td>
+<td class="r data" style=" background-color: #FF0000;"> 0.99</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data" style=" font-weight: bold;">numpedconinci_exp</td>
+<td class="r data"> 0.38</td>
+<td class="r data"> 0.36</td>
+<td class="r data"> 0.42</td>
+<td class="r data"> 0.38</td>
+<td class="r data"> 0.37</td>
+<td class="r data"> 0.36</td>
+<td class="r data"> 0.24</td>
+<td class="r data"> 0.13</td>
+<td class="r data"> 0.37</td>
+<td class="r data"> 0.37</td>
+<td class="r data"> 0.40</td>
+<td class="r data"> 0.37</td>
+<td class="r data"> 0.34</td>
+<td class="r data"> 0.37</td>
+<td class="r data"> 0.35</td>
+<td class="r data"> 0.41</td>
+<td class="r data"> 0.54</td>
+<td class="r data"> 0.42</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l linecontent" colspan="20">&nbsp;<br>totpedixadu:<br>totpedixadu_imp:<br>totpedixadu_exp:<br>totvalorpedxadu:<br>totvalorpedxadu_imp:<br>totvalorpedxadu_exp:<br>totpedamparo:<br>numpedamparo_exp:<br>totpedcartaencom:<br>numpedcartaencom_imp:<br>numpedcartaencom_exp:<br>totrfcimportadoresxadu:<br>importadorenpadron:<br>emprecertifi:<br>emprenocertifi:<br>totpedconsemaforo:<br>totpedconinci:<br>numpedconinci_imp:<br>numpedconinci_exp:</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
